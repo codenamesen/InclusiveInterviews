@@ -40,12 +40,16 @@ a {
   line-height: 146px;
 }
 
-/*Add grid rule set and properties here:*/
+/*Add grid rule set and properties here:
+=========================================*/
+.grid {
+  display: grid;
+}
 
 
 .subheader-content{
   /*Add properties here:*/
-  
+
   align: left;
 }
 
