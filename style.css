@@ -24,14 +24,14 @@ a {
 .logo {
   position: absolute;
   top: 50px;
-  left: 600px;
+  left: 150px;
   width: 250px;
 }
 
 .teresa-jenkins {
   position: absolute;
-  top: 300px;
-  left: 400px;
+  top: 250px;
+  left: 150px;
   color: #FFFFFF;
   font-family: "PT Sans";
   font-weight: bold;
@@ -48,6 +48,7 @@ a {
   grid-column-gap: 30px;
   margin-left: 150px;
   margin-right: 150px;
+  overflow: hidden;
 }
 
 
