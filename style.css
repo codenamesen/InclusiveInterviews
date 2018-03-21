@@ -44,7 +44,8 @@ a {
 =========================================*/
 .grid {
   display: grid;
-  grid-template: 10% 20% 35% 35% / repeat(12, 1fr)
+  grid-template: 10% 20% 35% 35% / repeat(12, 1fr);
+  grid-column-gap: 30px;
 }
 
 
