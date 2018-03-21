@@ -56,7 +56,11 @@ a {
   align: left;
 }
 
-/*Add text-content-1 rule set and properties here:*/
+/*Add text-content-1 rule set and properties here:
+==================================================*/
+.text-content-1 {
+  grid-area: 2 / 1 / 3 / span 4;
+}
 
 /*Add text-content-2 rule set and properties here:*/
 
