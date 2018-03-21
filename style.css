@@ -44,7 +44,7 @@ a {
 =========================================*/
 .grid {
   display: grid;
-  grid-template: 10% 20% 35% 35% / repeat(12, 1fr)  
+  grid-template: 10% 20% 35% 35% / repeat(12, 1fr)
 }
 
 
@@ -95,11 +95,13 @@ a {
 /*Add image-content rule set and properties here:
 =================================================*/
 .image-content {
-  grid-area: 3 / 5 / 4 / span 8;
+  grid-area: 3 / 5 / 5 / span 8;
 }
 
 .info-content {
-  /*Add properties here:*/
+  /*Add properties here:
+  ======================*/
+  grid-area: 1 / 9 / 3 / span 4;
 
   background-color: #292929;
   padding-top: 50px;
