@@ -44,11 +44,14 @@ a {
 =========================================*/
 .grid {
   display: grid;
+  grid-template: 10% 20% 35% 35% / repeat(12, 1fr)
 }
 
 
 .subheader-content{
-  /*Add properties here:*/
+  /*Add properties here:
+  =======================*/
+  grid-area: 1 / 1 / 2 / span 8;
 
   align: left;
 }
