@@ -86,7 +86,11 @@ a {
   grid-area: 4 / 9 / 5 / span 4
 }
 
-/*Add quote-content rule set and properties here:*/
+/*Add quote-content rule set and properties here:
+=================================================*/
+.quote-content {
+  grid-area: 4 / 1 / 5 / span 4;
+}
 
 /*Add image-content rule set and properties here:*/
 
