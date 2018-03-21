@@ -46,6 +46,8 @@ a {
   display: grid;
   grid-template: 10% 20% 35% 35% / repeat(12, 1fr);
   grid-column-gap: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 
